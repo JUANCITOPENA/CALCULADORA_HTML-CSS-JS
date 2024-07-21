@@ -19,21 +19,22 @@ function inputDigit(digit) {
 function inputDecimal(dot) {
     if (calculator.waitingForSecondOperand === true) return;
 
+    // If the `displayValue` does not contain a decimal point
     if (!calculator.displayValue.includes(dot)) {
         calculator.displayValue += dot;
     }
 }
 
 function handleOperator(nextOperator) {
-    const { firstOperand, displayValue, operator } = calculator
+    const { firstOperand, displayValue, operator } = calculator;
     const inputValue = parseFloat(displayValue);
 
-    if (operator && calculator.waitingForSecondOperand)  {
+    if (operator && calculator.waitingForSecondOperand) {
         calculator.operator = nextOperator;
         return;
     }
 
-    if (firstOperand == null && !isNaN(inputValue)) {
+    if (firstOperand == null) {
         calculator.firstOperand = inputValue;
     } else if (operator) {
         const result = calculate(firstOperand, inputValue, operator);
@@ -47,17 +48,18 @@ function handleOperator(nextOperator) {
 }
 
 function calculate(firstOperand, secondOperand, operator) {
-    if (operator === '+') {
-        return firstOperand + secondOperand;
-    } else if (operator === '-') {
-        return firstOperand - secondOperand;
-    } else if (operator === '*') {
-        return firstOperand * secondOperand;
-    } else if (operator === '/') {
-        return firstOperand / secondOperand;
+    switch (operator) {
+        case '+':
+            return firstOperand + secondOperand;
+        case '-':
+            return firstOperand - secondOperand;
+        case '*':
+            return firstOperand * secondOperand;
+        case '/':
+            return firstOperand / secondOperand;
+        default:
+            return secondOperand;
     }
-
-    return secondOperand;
 }
 
 function resetCalculator() {
