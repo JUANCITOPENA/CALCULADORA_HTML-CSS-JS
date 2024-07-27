@@ -125,7 +125,7 @@ Las contribuciones son bienvenidas. Puedes hacerlo de la siguiente manera:
 
 Si te gusta este proyecto, no olvides darle una estrella en GitHub. ¡Tu apoyo es muy importante y me motiva a seguir mejorando!
 
-Ver Proyecto Funcionando:https://github.com/JUANCITOPENA/CALCULADORA_HTML-CSS-JS
+Ver Proyecto Funcionando: https://juancitopena.github.io/CALCULADORA_HTML-CSS-JS/
 
 ## 📜 Licencia
 
