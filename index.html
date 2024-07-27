@@ -3,32 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Advanced Calculator</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="calculator">
-        <input type="text" class="calculator-screen" value="" disabled />
-        <div class="calculator-keys">
-            <button type="button" class="operator" value="+">+</button>
-            <button type="button" class="operator" value="-">-</button>
-            <button type="button" class="operator" value="*">&times;</button>
-            <button type="button" class="operator" value="/">&divide;</button>
-            <button type="button" value="7">7</button>
-            <button type="button" value="8">8</button>
-            <button type="button" value="9">9</button>
-            <button type="button" value="4">4</button>
-            <button type="button" value="5">5</button>
-            <button type="button" value="6">6</button>
-            <button type="button" value="1">1</button>
-            <button type="button" value="2">2</button>
-            <button type="button" value="3">3</button>
-            <button type="button" value="0">0</button>
-            <button type="button" class="decimal" value=".">.</button>
-            <button type="button" class="all-clear" value="all-clear">AC</button>
-            <button type="button" class="equal-sign" value="=">=</button>
+<body class="d-flex flex-column justify-content-between min-vh-100">
+    <div class="container text-center my-4">
+        <h1 class="fluorescent">Calculadora Básica HTML, CSS, JS</h1>
+        <div class="calculator mx-auto">
+            <div id="display" class="calculator-display">0</div>
+            <div class="calculator-buttons">
+                <button onclick="clearDisplay()" class="button">AC</button>
+                <button onclick="chooseOperation('^')" class="button operator">^</button>
+                <button onclick="chooseOperation('√')" class="button operator">√</button>
+                <button onclick="chooseOperation('%')" class="button operator">%</button>
+                <button onclick="chooseOperation('/')" class="button operator">/</button>
+                <button onclick="appendNumber(7)" class="button">7</button>
+                <button onclick="appendNumber(8)" class="button">8</button>
+                <button onclick="appendNumber(9)" class="button">9</button>
+                <button onclick="chooseOperation('*')" class="button operator">*</button>
+                <button onclick="appendNumber(4)" class="button">4</button>
+                <button onclick="appendNumber(5)" class="button">5</button>
+                <button onclick="appendNumber(6)" class="button">6</button>
+                <button onclick="chooseOperation('-')" class="button operator">-</button>
+                <button onclick="appendNumber(1)" class="button">1</button>
+                <button onclick="appendNumber(2)" class="button">2</button>
+                <button onclick="appendNumber(3)" class="button">3</button>
+                <button onclick="chooseOperation('+')" class="button operator">+</button>
+                <button onclick="appendNumber(0)" class="button">0</button>
+                <button onclick="appendNumber('.')" class="button">.</button>
+                <button onclick="compute()" class="button operator">=</button>
+            </div>
         </div>
+        <footer class="mt-4">
+            <p>2024, Juancito Pena</p>
+            <div class="social-icons">
+                <a href="https://www.youtube.com/channel/UCSob-3E5z4IHtMF5B4bN-FA" class="mx-2" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.linkedin.com/in/juancitope%C3%B1a/" class="mx-2" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/JUANCITOPENA/CALCULADORA_HTML-CSS-JS" class="mx-2" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/juancito.p.v " class="mx-2" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://x.com/JuancitoPenaV" class="mx-2" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/juancito.pena.v/" class="mx-2" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </footer>
     </div>
-    <script src="scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
