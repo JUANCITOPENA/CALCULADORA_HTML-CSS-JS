@@ -105,11 +105,11 @@ Este enfoque modular y estructurado facilita la lectura y mantenimiento del cód
 
 ## Capturas de Pantalla
 
-![](1.png)
+![](1.jpg)
 
-![](2.png)
+![](2.jpg)
 
-![](2.png)
+![](2.jpg)
 
 ## Contribuciones
 
