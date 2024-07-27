@@ -48,6 +48,61 @@ calculadora-web/
 └── scripts.js   # Lógica y funcionalidad de la calculadora
 ```
 
+# Calculadora Web
+
+Este proyecto implementa una calculadora web utilizando HTML, CSS y JavaScript. A continuación, se presenta un desglose del código y las buenas prácticas implementadas.
+
+## Componentes Principales
+
+### Variables
+
+- `display`: Referencia al elemento HTML que muestra el resultado.
+- `currentOperand`: Almacena el número que el usuario está ingresando.
+- `previousOperand`: Almacena el número anterior para operaciones.
+- `operation`: Almacena la operación matemática actual.
+
+### Funciones Principales
+
+1. `clearDisplay()`: Limpia el display y reinicia los operandos y la operación.
+2. `appendNumber(number)`: Añade un número al operando actual.
+3. `chooseOperation(op)`: Establece la operación a realizar.
+4. `compute()`: Realiza la operación matemática.
+5. `updateDisplay()`: Actualiza el contenido del display.
+6. `showError(message)`: Muestra un mensaje de error en un modal.
+7. `continueOperation()`: Maneja el cierre del modal de error.
+
+## Validaciones
+
+- Prevención de múltiples puntos decimales.
+- Validación de división por cero.
+- Validación de raíz cuadrada de números negativos.
+- Validación de números demasiado grandes.
+
+## Estructuras de Control
+
+- Condicionales `if` para verificar condiciones específicas.
+- Estructura `switch` para realizar cálculos según la operación seleccionada.
+
+## Buenas Prácticas Implementadas
+
+1. **Separación de Concerns**: Funciones claramente separadas por propósito.
+2. **Validación de Entrada**: Prevención de errores comunes.
+3. **Actualización del Display**: Función dedicada para reflejar el estado actual.
+4. **Manejo de Errores**: Uso de modales para mostrar mensajes de error.
+5. **Conversión Segura de Tipos**: Uso de `parseFloat` para conversión de cadenas a números.
+6. **Redondeo de Resultados**: Uso de `Math.round` para evitar problemas con números muy largos.
+
+## Implementación
+
+El código refleja estas buenas prácticas a través de:
+
+- Funciones con responsabilidades claras.
+- Validación robusta de entradas y operaciones.
+- Manejo elegante de errores mediante modales.
+- Aseguramiento de la precisión de resultados con técnicas de redondeo y conversión de tipos.
+
+Este enfoque modular y estructurado facilita la lectura y mantenimiento del código, además de mejorar la experiencia del usuario al proporcionar una interfaz clara y respuestas adecuadas a las entradas.
+
 ## Capturas de Pantalla
 
 [Aquí puedes agregar capturas de pantalla de tu calculadora]
