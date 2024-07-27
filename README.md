@@ -62,12 +62,20 @@ Las contribuciones son bienvenidas. Puedes hacerlo de la siguiente manera:
 4. Sube tus cambios (`git push origin feature/nueva-funcionalidad`).
 5. Abre un Pull Request.
 
-## Licencia
+## ⭐ Invítame una Estrella ⭐
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+Si te gusta este proyecto, no olvides darle una estrella en GitHub. ¡Tu apoyo es muy importante y me motiva a seguir mejorando!
 
-## Contacto
+Ver Proyecto Funcionando: https://juancitopena.github.io/SECUENCIA_FIBONACCI_EJEMPLO/
 
-[Tu Nombre] - [tu-email@ejemplo.com]
+## 📜 Licencia
 
-Enlace del proyecto: [https://github.com/tu-usuario/calculadora-web](https://github.com/tu-usuario/calculadora-web)
+Este proyecto está licenciado bajo la Licencia MIT. Para más información, consulta el archivo [LICENSE](LICENSE).
+
+## 🔔 Sígueme en GitHub
+
+Para estar al tanto de mis últimos proyectos y actualizaciones, sígueme en GitHub.
+
+[![Follow on GitHub](https://img.shields.io/github/followers/tuusuario.svg?style=social&label=Follow)](https://github.com/JUANCITOPENA)
+
+## 🤝 Comparte
