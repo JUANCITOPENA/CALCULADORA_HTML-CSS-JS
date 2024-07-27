@@ -4,6 +4,8 @@
 
 Este proyecto es una calculadora web simple pero elegante que permite realizar operaciones matemáticas básicas. La calculadora tiene una interfaz gráfica intuitiva, diseñada para ser fácil de usar y visualmente atractiva.
 
+![PORTADA](Screenshot_151.png)
+
 ## Características
 
 - **Interfaz de Usuario Amigable**: Diseño limpio y moderno que facilita la interacción.
