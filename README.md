@@ -105,7 +105,11 @@ Este enfoque modular y estructurado facilita la lectura y mantenimiento del cód
 
 ## Capturas de Pantalla
 
-[Aquí puedes agregar capturas de pantalla de tu calculadora]
+![](1.png)
+
+![](2.png)
+
+![](2.png)
 
 ## Contribuciones
 
