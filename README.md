@@ -66,7 +66,7 @@ Las contribuciones son bienvenidas. Puedes hacerlo de la siguiente manera:
 
 Si te gusta este proyecto, no olvides darle una estrella en GitHub. ¡Tu apoyo es muy importante y me motiva a seguir mejorando!
 
-Ver Proyecto Funcionando: https://juancitopena.github.io/SECUENCIA_FIBONACCI_EJEMPLO/
+Ver Proyecto Funcionando: [https://juancitopena.github.io/SECUENCIA_FIBONACCI_EJEMPLO/](https://juancitopena.github.io/CALCULADORA_HTML-CSS-JS/)
 
 ## 📜 Licencia
 
@@ -76,6 +76,6 @@ Este proyecto está licenciado bajo la Licencia MIT. Para más información, con
 
 Para estar al tanto de mis últimos proyectos y actualizaciones, sígueme en GitHub.
 
-[![Follow on GitHub](https://img.shields.io/github/followers/tuusuario.svg?style=social&label=Follow)](https://github.com/JUANCITOPENA)
+https://github.com/JUANCITOPENA/CALCULADORA_HTML-CSS-JS
 
 ## 🤝 Comparte
