@@ -76,3 +76,12 @@ footer .social-icons a {
 footer .social-icons a:hover {
     color: #555;
 }
+
+/* Estilos para el modal */
+.modal-content {
+    text-align: center;
+}
+
+.modal-body img {
+    width: 100px;
+}
